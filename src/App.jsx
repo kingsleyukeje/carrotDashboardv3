@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from "./components/header";
 import Sidebar from "./components/sidebar";
-import MainDashboard from "./components/pages/MainDashboard";
+import MainDashboard from "./components/pages/maindashboard";
 import Repayments from "./components/pages/repayments";
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
         {/* This is where page content will change */}
         <div style={{ flex: 1, overflow: "auto" }}>
           <Routes>
-            <Route path="/MainDashboard" element={<MainDashboard />} />
+            <Route path="/maindashboard" element={<MainDashboard />} />
             <Route path="/repayments" element={<Repayments />} />
           </Routes>
         </div>
