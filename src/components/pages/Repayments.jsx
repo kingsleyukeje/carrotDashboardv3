@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-const repayments = () => {
+const Repayments = () => {
   return (
     <div>repayments</div>
-  )
-}
+  );
+};
 
-export default repayments
+export default Repayments;
