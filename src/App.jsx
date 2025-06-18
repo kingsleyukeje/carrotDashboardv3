@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from "./components/header";
-import Sidebar from "./components/sidebar";
+import Header from "./components/Header";
+import Sidebar from "./components/Sidebar";
 import MainDashboard from "./components/pages/MainDashboard";
-import Repayments from "./components/pages/repayments";
+import Repayments from "./components/pages/Repayments";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         <div style={{ flex: 1, overflow: "auto" }}>
           <Routes>
             <Route path="/MainDashboard" element={<MainDashboard />} />
-            <Route path="/repayments" element={<Repayments />} />
+            <Route path="/Repayments" element={<Repayments />} />
           </Routes>
         </div>
       </div>
