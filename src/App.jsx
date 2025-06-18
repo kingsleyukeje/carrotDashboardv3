@@ -16,7 +16,7 @@ function App() {
         {/* This is where page content will change */}
         <div style={{ flex: 1, overflow: "auto" }}>
           <Routes>
-            <Route path="/maindashboard" element={<MainDashboard />} />
+            <Route path="/MainDashboard" element={<MainDashboard />} />
             <Route path="/repayments" element={<Repayments />} />
           </Routes>
         </div>
