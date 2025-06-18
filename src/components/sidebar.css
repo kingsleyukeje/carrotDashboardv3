@@ -1,0 +1,89 @@
+.sidebar {
+  width: 240px;
+  padding: 2rem 0.1rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', sans-serif;
+}
+
+.sidebar-section {
+  margin-bottom: 2rem;
+}
+
+.sidebar-heading {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #6b7280; /* Tailwind's gray-500 */
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+}
+
+.sidebar-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-section li .icon {
+  width: 18px;
+  height: 18px;
+}
+
+.sidebar-section li:hover {
+  color: #ea580c; /* Tailwind orange-600 */
+}
+
+.sidebar-section li.active {
+  color: #ea580c;
+  font-weight: 600;
+  border-left: 3px solid #ea580c;
+  padding-left: 0.5rem;
+}
+
+.sidebar-section a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.6rem 0;
+  font-size: 0.95rem;
+}
+
+.sidebar-section a.active {
+  color: #ea580c;
+  font-weight: 600;
+  border-left: 3px solid #ea580c;
+  padding-left: 0.5rem;
+}
+
+
+.sidebar-section li {
+  /* Just used as a container now */
+  margin-bottom: 0.4rem; /* adds spacing between items */
+}
+
+.sidebar-section a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.6rem 1rem;
+  font-size: 0.95rem;
+  border-left: 3px solid transparent;
+  transition: all 0.2s ease;
+  border-radius: 4px;
+}
+
+.sidebar-section a:hover {
+  background-color: #f9f9f9;
+}
+
+.sidebar-section a.active {
+  color: #ea580c;
+  font-weight: 600;
+  border-left: 3px solid #ea580c;
+  background-color: #fff7f3;
+}
